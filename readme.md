@@ -14,6 +14,7 @@ Bienvenido a FlashbackGaming! Este proyecto para Talento-Tech es un sitio de e-c
     - [1. Clonar el Repositorio.](#1-clonar-el-repositorio)
     - [2. Abrir el Proyecto en Visual Studio Code.](#2-abrir-el-proyecto-en-visual-studio-code)
     - [3. Ejecutar el Proyecto en un Servidor Local.](#3-ejecutar-el-proyecto-en-un-servidor-local)
+  - [Licencia.](#licencia)
 
 ## Descripción del Proyecto.
 
@@ -69,6 +70,6 @@ Para visualizar la página web en tu navegador, necesitas ejecutar el archivo in
     Si prefieres no usar Live Server, puedes abrir index.html directamente en tu navegador:
     Navega a la carpeta del proyecto y haz doble clic en index.html, lo cual debería abrir la página en tu navegador predeterminado.
 
-    ## Licencia.
+## Licencia.
 
 2024 FlashbackGaming. Todos los derechos reservados.
