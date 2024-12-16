@@ -75,6 +75,42 @@
         
     }
 
+    /* Estilos de bootstrap nav */
+    .custom-nav {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 2vw;
+        width: 100%;
+        box-sizing: border-box;
+        margin-bottom: 5%;
+    }
+
+    .custom-nav .nav-item {
+        display: inline-block;
+        margin: 0;
+        padding: 0;
+    }
+
+    .custom-nav .nav-link {
+        font-size: 3vw;
+        text-decoration: none;
+        color: #000000;
+        font-weight: bold;
+        padding: 1vw 2vw;
+        border: 0.5vw solid rgb(19, 24, 66);
+        border-radius: 5px;
+        transition: background-color 0.3s ease, color 0.3s ease;
+        white-space: nowrap;
+    }
+
+    .custom-nav .nav-link:hover {
+        background-color: rgb(19, 24, 66);
+        color: #ffffff;
+    }
 
     /*Página Principal con grid (Siendo sincero jugue mucho con el grid hasta que tomó la forma que necesitaba)*/
     #indexmain {
