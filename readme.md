@@ -1,45 +1,55 @@
-# FlashbackGaming.
+# FlashbackGaming
 
-Bienvenido a FlashbackGaming! Este proyecto para Talento-Tech es un sitio de e-commerce dedicado a las consolas de videojuegos retro, creado para ofrecer una experiencia visualmente atractiva y adaptativa, ideal para los amantes de los juegos clásicos.
+Bienvenido a FlashbackGaming! Este proyecto para Talento-Tech es un sitio de e-commerce dedicado a las consolas de videojuegos retro, creado para ofrecer una experiencia visualmente atractiva, adaptativa e interactiva, ideal para los amantes de los juegos clásicos.
 
-## Tabla de contenidos.
+## Tabla de Contenidos
 
-- [FlashbackGaming.](#flashbackgaming)
-  - [Tabla de contenidos.](#tabla-de-contenidos)
-  - [Descripción del Proyecto.](#descripción-del-proyecto)
-  - [Características.](#características)
-  - [Tecnologías Utilizadas.](#tecnologías-utilizadas)
-  - [Estructura del Proyecto.](#estructura-del-proyecto)
+- [FlashbackGaming](#flashbackgaming)
+  - [Tabla de Contenidos](#tabla-de-contenidos)
+  - [Descripción del Proyecto](#descripción-del-proyecto)
+  - [Características](#características)
+  - [Tecnologías Utilizadas](#tecnologías-utilizadas)
+  - [Estructura del Proyecto](#estructura-del-proyecto)
   - [Instalación y Configuración.](#instalación-y-configuración)
     - [1. Clonar el Repositorio.](#1-clonar-el-repositorio)
     - [2. Abrir el Proyecto en Visual Studio Code.](#2-abrir-el-proyecto-en-visual-studio-code)
     - [3. Ejecutar el Proyecto en un Servidor Local.](#3-ejecutar-el-proyecto-en-un-servidor-local)
   - [Licencia.](#licencia)
 
-## Descripción del Proyecto.
+## Descripción del Proyecto
 
-FlashbackGaming es una tienda en línea donde los usuarios pueden explorar y adquirir consolas y videojuegos retro. En principio seria de un sitio web para la pre-entrega de un proyecto para el curso de Talento-Tech.
+FlashbackGaming es una tienda en línea donde los usuarios pueden explorar y adquirir consolas y videojuegos retro. Es un proyecto desarrollado como pre-entrega para el curso Talento-Tech, con características que simulan una experiencia de e-commerce real.
 
-## Características.
+## Características
 
-- **Diseño Adaptativo**: La página se ajusta a distintos tamaños de pantalla, brindando una mejor experiencia en distintos dispositivos
-- **Secciónes con diferentes organizaciones**: Organización en un diseño grid para la página principal, flexbox para la página de productos y formulario y media query para el footer.
-- **Estilo retro Retro**: Inspirado en los videojuegos clásicos, la estética esta diseñada para evocar nostalgia.
-  
-## Tecnologías Utilizadas.
+- **Diseño Adaptativo**: La página se ajusta a distintos tamaños de pantalla, brindando una mejor experiencia en diversos dispositivos.
+- **Interactividad**: 
+  - Validación de formularios mediante JavaScript para garantizar que los datos ingresados sean correctos antes de enviarlos.
+  - Funcionalidad de carrito de compras, permitiendo agregar y gestionar productos seleccionados.
+- **Diseño Modular**:
+  - **Página Principal**: Organizada con CSS Grid para una disposición uniforme y estética.
+  - **Productos y Formularios**: Diseñados con Flexbox para una estructura fluida y ordenada.
+  - **Footer**: Adaptado con media queries para asegurar su responsividad.
+- **Estilo Retro**: Inspirado en los videojuegos clásicos, la estética está diseñada para evocar nostalgia.
+- **Componentes Dinámicos**: Menú y barra lateral del carrito de compras implementados con Bootstrap.
 
-- **Visual Studio Code**: Para el desarrollo del sitio web.
-- **HTML5**: Para la estructura de la página.
-- **CSS3**: Para el estilo y diseño responsivo.
-- **Flexbox y CSS Grid**: Para la disposición y adaptación del contenido en diversas pantallas.
+## Tecnologías Utilizadas
 
-## Estructura del Proyecto.
-.
-- `index.html`: Archivo principal de la página web que contiene el contenido y la estructura del sitio.
-- `styles.css`: Archivo de estilos donde se define el diseño del sitio, incluyendo el fondo degradado, fuentes, y disposiciones de los elementos.
-- `img/`: Carpeta donde se almacenan las imágenes.
-- `videos/`: Carpeta donde se almacenan los videos.
-- `Extra/`: Carpeta donde se almacenan iconos, logos, paleta de colores.  
+- **Visual Studio Code**: Editor utilizado para el desarrollo del proyecto.
+- **HTML5**: Para la estructura semántica de la página.
+- **CSS3**: Para los estilos y diseño responsivo.
+- **Flexbox y CSS Grid**: Para la disposición y organización del contenido.
+- **JavaScript**: Para las funcionalidades dinámicas del formulario y el carrito de compras.
+- **Bootstrap**: Para el menú de navegación y la barra lateral interactiva.
+
+## Estructura del Proyecto
+
+- `index.html`: Archivo principal de la página web que contiene la estructura del sitio.
+- `styles.css`: Archivo de estilos donde se define el diseño del sitio, incluyendo colores, fuentes y disposiciones.
+- `js/`: Carpeta donde se almacenan los scripts con las funcionalidades dinámicas del formulario y el carrito de compras.
+- `img/`: Carpeta donde se almacenan las imágenes utilizadas.
+- `videos/`: Carpeta donde se almacenan los videos utilizados.
+- `Extra/`: Carpeta donde se almacenan íconos, logos y la paleta de colores.
 
 ## Instalación y Configuración.
 
